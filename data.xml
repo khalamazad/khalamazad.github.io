@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webcontent>
+    <home>
+        <unique-because>
+            <header>I'm Unique Because</header>
+            <body>Designer based in Colombo, Sri Lanka with 12+ years of expert knowledge in professional tools and innovative technologies. Has experience in industry's leading tools and technologies like SharePoint, WordPress, Jquery Mobile, Jquery, AngularJS, NodeJS, Bootstrap, Foundation, Android, PhoneGap, Corporate video editing, PHP and MySQL who brings flexibility and freedom of designing for reality.</body>
+        </unique-because>
+        <contact>
+            <heading>Contact Me</heading>
+            <tel>+94 719 116665</tel>
+            <email>khalamazad@gmail.com</email>
+            <me-elsewhere>
+                <item>
+                    <title>FaceBook</title>
+                    <url>https://www.facebook.com/khalamazad</url>
+                </item>
+                <item>
+                    <title>LinkedIn</title>
+                    <url>https://www.linkedin.com/in/sp2010</url>
+                </item>
+            </me-elsewhere>
+        </contact>
+        <services-i-offer>
+            <offer>
+                <title>Design Strategy</title>
+                <deliverables>UX Design Process, Personas, Stakeholders Interviews, Value Proposition and User Stories</deliverables>
+            </offer>
+            <offer>
+                <title>Concepting Methods</title>
+                <deliverables>Brainstorming(Crazy ideas), storyboards and User Flow</deliverables>
+            </offer>
+            <offer>
+                <title>Product Planning Methods</title>
+                <deliverables>Sitemap, Features Roadmap and Use Case Scenarios</deliverables>
+            </offer>
+            <offer>
+                <title>Research and UI Design</title>
+                <deliverables>Usability Test, Sketches, Wireframes, Prototypes, Design patterns and UX process with detailed approach</deliverables>
+            </offer>
+            <offer>
+                <title>Front-End-Development</title>
+                <deliverables>Front end coding, Conduct user research, Design interfaces, or Create visual assets. From start to finish</deliverables>
+            </offer>
+            <offer>
+                <title>Others</title>
+                <deliverables>provide training, SEO, Video editing</deliverables>
+            </offer>
+        </services-i-offer>
+    </home>
+    <about>
+        <to>Jani</to>
+        <from>Tove</from>
+        <heading>Re: Reminder</heading>
+        <body>I will not</body>
+    </about>
+    <featured-soluiton>
+        <featured-item>
+            <title>BoardPAC</title>
+            <body>BoardPAC is an effective way for Board Directors to access the Board and Committee Papers and supplementary information directly on to their iPad device. This solution enables efficient secure access to the Company Corporate Board Papers. The platform has the collaboration enabled for quick decision making through a collaborative approach. </body>
+            <awards-title>Awards and Industry Recognition</awards-title>
+            <awards-body>
+                <item>Microsoft Best ISV Solutions Partner of the Year 2015 </item>
+                <item>ISO27001 Security Management Certification </item>
+                <item>National Best Quality Software Awards 2012 "Green IT - Gold Award"</item>
+            </awards-body>
+            <role>
+                <title>Role in Project</title>
+                <deliverables>UI Architect / UX Consultant </deliverables>
+            </role>
+            <approch>
+                <title>Approch</title>
+                <deliverables>iOS Human Interface Guidelines, Stakeholders Interviews, Crazy ideas, Design patterns and UX process with detailed approach, Design interfaces, Front-end coding</deliverables>
+            </approch>
+            <technology>
+                <title>Tools and Technologies</title>
+                <deliverables>Xcode Interface Builder, visual studio, HTML, CSS, Bootstrap, Java Script, Jquery, Photoshop</deliverables>
+            </technology>
+        </featured-item>
+        <featured-item>
+            <title>Atrad</title>
+            <body>ATrad is Sri Lanka's only Sun Microsystems certified real-time, online stock trading system. ATrad enables clients to place orders remotely, view their portfolios and perform transactions with the highest reliability and quality standards. ATrad`s ability to provide real-time trade information makes it a powerful tool. solutions that work everywhere (improved web and mobile friendly UIs)</body>
+            <awards-title>Industry Recognition</awards-title>
+            <awards-body>
+                <item>Highest Clients in Sri Lanka </item>
+                <item>CSE/SEC Approved </item>
+                <item>ORACLE Approved</item>
+            </awards-body>
+            <role>
+                <title>Role in Project</title>
+                <deliverables>UI Architect / UX Consultant </deliverables>
+            </role>
+            <approch>
+                <title>Approch</title>
+                <deliverables>Stakeholders Interviews, Sitemap, Features Roadmap, Design patterns and UX process with detailed approach, Design interfaces, Front-end coding</deliverables>
+            </approch>
+            <technology>
+                <title>Tools and Technologies</title>
+                <deliverables>Android, PhoneGap, HTML, CSS, Bootstrap, Foundation, Java Script, dojo, Jquery Mobile, Jquery, Photoshop</deliverables>
+            </technology>
+        </featured-item>
+        <featured-item>
+            <title>BoardPAC Corporate Video</title>
+            <body>BoardPAC is an effective way for Board Directors to access the Board and Committee Papers and supplementary information directly on to their iPad device. This solution enables efficient secure access to the Company Corporate Board Papers. The platform has the collaboration enabled for quick decision making through a collaborative approach. </body>
+            <body></body>
+            <role>
+                <title>Role in Project</title>
+                <deliverables>Art Director / Visual effects creator </deliverables>
+            </role>
+            <approch>
+                <title>Approch</title>
+                <deliverables>Stakeholders Interviews, Sketches, Create visual assets</deliverables>
+            </approch>
+            <technology>
+                <title>Tools and Technologies</title>
+                <deliverables>Photoshop, After Effects</deliverables>
+            </technology>
+        </featured-item>
+        <featured-item>
+            <title>Royal College Cricket Carnival</title>
+            <body>Royal College Cricket Carnival since its inception in the year 2001 has been one of the main calendar events of old Royalists, both young and old. It has been an event which has been run to raise funds to support development activities of College as well as to provide yet another opportunity for Old Royalists and their families to get-together.</body>
+            <role>
+                <title>Role in Project</title>
+                <deliverables>Media Director </deliverables>
+            </role>
+            <approch>
+                <title>Approch</title>
+                <deliverables>Stakeholders Interviews, Sketches, Create visual assets, Facebook Marketing  </deliverables>
+            </approch>
+            <technology>
+                <title>Tools and Technologies</title>
+                <deliverables>Photoshop, After Effects</deliverables>
+            </technology>
+        </featured-item>
+    </featured-soluiton>
+
+</webcontent>

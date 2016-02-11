@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Design Strategy",
+    "deliverables": "UX Design Process / Personas / Stakeholders Interviews / Value Proposition / User Stories",
+    "icon":"fa-pencil"
+  },
+  {
+    "title": "Concepting Methods",
+    "deliverables": "Brainstorming(Crazy ideas) / storyboards and User Flow",
+    "icon":"fa-map-o"
+  },
+  {
+    "title": "Product Planning Methods",
+    "deliverables": "Sitemap / Features Roadmap / Use Case Scenarios",
+    "icon":"fa-sitemap"
+  },
+  {
+    "title": "Research and UI Design",
+    "deliverables": "Usability Test / Sketches / Wireframes / Prototypes / Design patterns / UX process with detailed approach",
+    "icon":"fa-paper-plane-o"
+  },
+  {
+    "title": "Front-End-Development",
+    "deliverables": "Front end coding / Conduct user research / Design interfaces / Create visual assets",
+    "icon":"fa-tablet"
+  },
+  {
+    "title": "Others",
+    "deliverables": "Provide training / SEO / Video editing",
+    "icon":"fa-th-large"
+  }
+]

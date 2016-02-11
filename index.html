@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="CombineModule" ng-controller="mainController">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="fragment" content="!">
+    <meta name="distribution" content="global" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- We define the SEO variables we want to dynamically update -->
+    <title>Abul Khalam Azad - {{ seo.pageTitle }}</title>
+    <meta name="description" content="{{ seo.metaDescription }}">
+    <meta content="index, follow" name="robots" />
+    <meta content="English" name="language" />
+    <meta content="General" name="audience" />
+    <META NAME="GOOGLEBOT" CONTENT="NOODP">
+    <META NAME="SLURP" CONTENT="NOODP">
+    <META NAME="MSNBOT" CONTENT="NOODP">
+    <meta content="khalamazad.com" name="Author" />
+    <!-- SCROLLS -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog.min.css" />
+    <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog-theme-default.min.css" />
+    <link rel="stylesheet" href="css/scroll.css" />
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- SPELLS -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="node_modules/angularfire/dist/angularfire.min.js"></script>
+    <script src="node_modules/ng-dialog/js/ngDialog.min.js"></script>
+    <script src="node_modules/angular-messages/angular-messages.min.js"></script>
+    <script>
+        function utmx_section(){}function utmx(){}
+        (function(){var k='4203431325',d=document,l=d.location,c=d.cookie;function f(n){
+            if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.
+                            length+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+            d.write('<sc'+'ript src="'+
+                    'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
+                    +'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
+                    +new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+                    '" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+    </script>
+    <!-- End of Google Website Optimizer Control Script -->
+    <!-- Google Website Optimizer Tracking Script -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['gwo._setAccount', 'UA-7891766-1']);
+        _gaq.push(['gwo._trackPageview', '/4203431325/test']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End of Google Website Optimizer Tracking Script -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-7568694-1");
+            pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+</head>
+<!-- define angular controller -->
+<body>
+<!-- BEGIN: Pre-Bootstrap Loading Screen. -->
+<div ng-if="false" ng-class="animation">
+    <style>
+     .loading {
+        display: inline-block;
+        margin: 5em;
+        border-width: 30px;
+        border-radius: 50%;
+        -webkit-animation: spin 1s linear infinite;
+        -moz-animation: spin 1s linear infinite;
+        -o-animation: spin 1s linear infinite;
+        animation: spin 1s linear infinite;
+    }
+
+    .style-2 {
+        border-style: double;
+        border-color: #444 transparent;
+    }
+
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(359deg);
+            -moz-transform: rotate(359deg);
+            transform: rotate(359deg);
+            }
+    }
+</style>
+    <br /><br /><br /><br /><br /><br /> <br />
+    <p style="text-align: center; vertical-align: middle;" class="animated fadeInDown">
+        <img src="images/logo.png"><br />
+
+        <span class="loading style-2"></span>
+    </p>
+
+</div>
+<!-- END: Pre-Bootstrap Loading Screen. -->
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <script>utmx_section("Title")</script>
+                <strong class="no-show">SharePoint UX Expert / UI Architect / UX Consultant</strong>
+            </noscript>
+            <div class="navbar-header animated bounceInLeft" title="Abul Khalam Azad - UI Architect / UX Consultant">
+
+                <a class="navbar-brand" href="#"><img src="images/logo2-with-name-small.png"></a>
+            </div>
+
+            <script>utmx_section("Navigation")</script>
+                <ul class="nav navbar-nav navbar-right mobile-bar animated bounceInRight">
+                    <li><a href="#/"><i class="menu-icon fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="menu-icon fa fa-book"></i> About Me</a></li>
+                    <li><a href="#featured"><i class="menu-icon fa fa-pie-chart"></i> Featured</a></li>
+                    <li><a href="#contact"><i class="menu-icon fa fa-phone-square"></i> Contact</a></li>
+                    <li class="display-none"><a href="" ng-click="open()" class="bounce"><i class="btn btn-crimson btn-xs fa fa-video-camera"></i></a></li>
+                </ul>
+            </noscript>
+        </div>
+        <div class="clearfix" />
+    </nav>
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+
+    <footer role="contentinfo" class="footer callout-dark-lot site-footer">
+
+                        <div class="container">
+                            <div class="row-fluid">
+                                <div class="col-lg-9 col-md-9 col-sm-12 map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31697.790752588534!2d79.8679867156879!3d6.949150562336639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259daaab3a887%3A0x55c416b927adf356!2s145+Manigamulla+Rd%2C+Kolonnawa%2C+Sri+Lanka!5e0!3m2!1sen!2s!4v1447942752666" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                    <script>utmx_section("Contact Me")</script>
+                                    <div class="col-lg-12 col-md-12 col-sm-6" ng-controller="ContactController">
+                                        <div ng-repeat="content in contact">
+                                            <h3 class="bubble animated fadeInUp">{{ content.heading }}</h3>
+
+                                                <span class="animated fadeInDown">{{ content.name }}</span>
+                                                <address class="animated fadeInUp">{{ content.address }}</address>
+
+                                                <abbr title="Phone" class="fa fa-phone animated fadeInDown"></abbr><a class="animated fadeInUp" href="tel:{{ content.tel }}"> {{ content.tel }}</a>
+
+
+                                        </div>
+                                    </div>
+                                    </noscript>
+                                    <div class="col-lg-12 col-md-12 col-sm-6 elsewhere" ng-controller="Contact2Controller">
+                                        <script>utmx_section("Me elsewhere")</script>
+                                        <h3 class="bubble animated fadeInUp">Me elsewhere </h3>
+                                            <span ng-repeat="links in linksurl" ng-show="links.title==2">
+                                                <a href="{{links.url}}" target="_blank"><i id="social-tw" class="fa fa-linkedin fa-3x social"></i></a>
+                                            </span>
+                                            <span ng-repeat="links in linksurl" ng-show="links.title==1">
+                                                <a href="{{links.url}}" target="_blank"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a>
+                                            </span>
+                                            <span ng-repeat="links in linksurl" ng-show="links.title==3">
+                                                <a href="{{links.url}}" target="_blank"><i id="social-gp" class="fa fa-google-plus fa-3x social"></i></a>
+                                            </span>
+                                            <span ng-repeat="links in linksurl" ng-show="links.title==4">
+                                                <a href="mailto:{{links.url}}" target="_blank"><i id="social-em" class="fa fa-envelope fa-3x social"></i></a>
+                                            </span>
+                                        </noscript>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        <div class="clearfix" />
+
+    </footer>
+    <!-- Copyright -->
+    <div class="navbar-inverse">
+        <div class="container">
+            <div class="row copyright-img" id="footertext">
+
+                    <ul class="col-lg-6 col-md-6 col-sm-7 col-xs-6 text-left  nav navbar-nav display-none">
+                        <li><a href="#/"><i class="menu-icon fa fa-home"></i> Home</a></li>
+                        <li><a href="#about"><i class="menu-icon fa fa-book"></i> About Me</a></li>
+                        <li><a href="#featured"><i class="menu-icon fa fa-pie-chart"></i> Featured</a></li>
+                        <li><a href="#contact"><i class="menu-icon fa fa-phone-square"></i> Contact</a></li>
+                        <li><a href="#/" class="bounce"><i class="btn btn-crimson btn-xs fa fa-video-camera"></i></a></li>
+                    </ul>
+                    <span class="cright col-lg-6 col-md-6 col-sm-5 col-xs-12 text-right">
+
+                            <img src="images/favicon.png" />
+                            Copyright 2016 @ khalamazad.com
+                    </span>
+            </div>
+
+        </div>
+        <div class="clearfix" />
+    </div>
+    <!-- /Copyright -->
+    <!-- dialog -->
+    <script type="text/ng-template" id="firstDialog">
+        <div class="ngdialog-message">
+
+
+        </div>
+        <div class="ngdialog-buttons">
+            <button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="closeThisDialog()">Close</button>
+        </div>
+    </script>
+    <!-- /dialog -->
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/controllers.js"></script>
+    <script src="app/filters/filters.js"></script>
+    <script src="app/services/services.js"></script>
+    <script src="app/directives/directives.js"></script>
+</body>
+</html>

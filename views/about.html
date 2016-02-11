@@ -1,0 +1,131 @@
+<section>
+    <div class="jumbotron intro-header">
+        <div class="container text-center time-line">
+            <div class=row">
+
+                    <h2 class="animated flip orange">Want to know more <span class="text-uppercase gray">About Me!</span></h2>
+                    <p class="animated fadeInUp agenta"><a href="https://www.linkedin.com/in/sp2010" target="_blank">Online Resume</a> | <a href="ABUL%20KHALAM%20AZAD.pdf" target="_blank">Download Resume</a></p>
+
+            </div>
+        </div>
+    </div>
+    <div class="clearfix" />
+</section>
+<section class="section callout-dark-lot">
+    <div class="container text-center time-line">
+        <h2 class="animated fadeInDown bubble">Work Experience</h2>
+        <ul class="timeline">
+            <li>
+                <div class="tldate animated fadeInUp">
+                Dec 2010 - Present
+                </div>
+            </li>
+
+            <li>
+                <div class="tl-circ"></div>
+                <div class="timeline-panel animated bounceInLeft">
+                    <div class="tl-heading">
+                        <h4>Senior UI Consultant</h4>
+                        <p><small class="text-muted"><i class="fa fa-calendar"></i> July 2014 - Present </small></p>
+                    </div>
+                    <div class="tl-body">
+                        <p><a href="http://www.irononetech.com/consulting" target="_blank">IronOne Technologies LLC</a> | <a href="http://www.IronOne.com" target="_blank">IronOne</a> |
+                            <a href="http://www.boardpac.co" target="_blank">Board PAC</a> | <a href="http://www.atrad.lk" target="_blank">Atrad</a> | <a href="http://www.infosense.asia" target="_blank">Info Sense</a> </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="timeline-inverted">
+                <div class="tl-circ"></div>
+                <div class="timeline-panel animated bounceInRight">
+                    <div class="tl-heading">
+                        <h4>Senior UI Engineer</h4>
+                        <p><small class="text-muted"><i class="fa fa-calendar"></i> December 2010 - July 2014 </small></p>
+                    </div>
+                    <div class="tl-body">
+                        <p><a href="http://www.irononetech.com/consulting" target="_blank">IronOne Technologies LLC</a> | <a href="http://www.IronOne.com" target="_blank">IronOne</a> |
+                            <a href="http://www.boardpac.co" target="_blank">Board PAC</a> | <a href="http://www.atrad.lk" target="_blank">Atrad</a> | <a href="http://www.infosense.asia" target="_blank">Info Sense</a> </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="tldate animated fadeInUp">
+                    March 2010 - November 2010
+                </div>
+            </li>
+            <li>
+                <div class="tl-circ"></div>
+                <div class="timeline-panel animated bounceInLeft">
+                    <div class="tl-heading">
+                        <h4>UI Engineer Specialist</h4>
+                    </div>
+                    <div class="tl-body">
+                        <p><a href="http://www.virtusa.com" target="_blank">Virtusa </a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="tldate animated fadeInUp">
+                    March 2007 - March 2010
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="tl-circ"></div>
+                <div class="timeline-panel animated bounceInRight">
+                    <div class="tl-heading">
+                        <h4>Web Designer</h4>
+                    </div>
+                    <div class="tl-body">
+                        <p><a href="http://www.lankabell.com" target="_blank">Lanka Bell Telecommunications</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="tldate animated fadeInUp">
+                    Jan 2005 - Mar 2007
+                </div>
+            </li>
+            <li>
+                <div class="tl-circ"></div>
+                <div class="timeline-panel animated bounceInLeft">
+                    <div class="tl-heading">
+                        <h4>Web Designer</h4>
+                    </div>
+                    <div class="tl-body">
+                        <p><a href="http://www.sol.lk/" target="_blank">Sri Lanka Online</a></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="clearfix" />
+</section>
+<section class="section SL">
+    <div class="jumbotron callout-white text-center">
+        <div class="page row">
+            <h1 class="animated fadeInDown  crimson">Skills level</h1>
+
+            <!-- default -->
+            <div class="clearfix col-md-10 col-md-pull-1 col-md-push-1" ng-controller="SkillsLevel">
+
+                <script>utmx_section("Skills Level")</script>
+                <div class="skill col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="skills in skill">
+                    <div class="c100 p{{skills.level}} {{skills.color}} animated flip small">
+                        <span>{{skills.level}}%</span>
+
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <strong class="animated fadeInDown gray"> <span class="fa {{skills.icon}} {{skills.skillcolor}}"></span> {{skills.skill}}</strong>
+                    <p> {{skills.skillsub}}</p>
+                </div>
+                </noscript>
+            </div>
+
+        </div>
+    </div>
+    <div class="clearfix" />
+</section>

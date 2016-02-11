@@ -1,0 +1,83 @@
+ [
+        {
+          "ProductImage": "images/BoardPAC-intro.jpg",
+          "websitetitle": "Website",
+          "website": "http://www.boardpac.co",
+
+          "title": "BoardPAC",
+          "body": "BoardPAC is an effective way for Board Directors to access the Board and Committee Papers and supplementary information directly on to their iPad device. This solution enables efficient secure access to the Company Corporate Board Papers. The platform has the collaboration enabled for quick decision making through a collaborative approach. ",
+
+          "awardstitle": "Awards and Industry Recognition",
+          "item":"Microsoft Best ISV Solutions Partner of the Year 2015, ISO27001 Security Management Certification, National Best Quality Software Awards 2012 Green IT - Gold Award",
+
+          "roletitle": "Role in Project",
+          "roledeliverables": "UI Architect / UX Consultant ",
+
+          "approchtitle": "Approach",
+          "approchdeliverables": "iOS Human Interface Guidelines, Stakeholders Interviews, Crazy ideas, Design patterns and UX process with detailed approach, Design interfaces, Front-end coding",
+
+          "technologytitle": "Tools and Technologies",
+          "technologydeliverables": "Xcode Interface Builder, visual studio, HTML, CSS, Bootstrap, Java Script, Jquery, Photoshop"
+        },
+
+        {
+          "ProductImage": "images/Atrad-intro.jpg",
+          "websitetitle": "Website",
+          "website": "http://www.atrad.lk",
+
+          "title": "Atrad",
+          "body": "ATrad is Sri Lanka's only Sun Microsystems certified real-time, online stock trading system. ATrad enables clients to place orders remotely, view their portfolios and perform transactions with the highest reliability and quality standards. ATrad`s ability to provide real-time trade information makes it a powerful tool. solutions that work everywhere (improved web and mobile friendly UIs)",
+
+          "awardstitle": "Industry Recognition",
+          "item": "Highest Clients in Sri Lanka, CSE/SEC Approved, ORACLE Approved",
+
+          "roletitle": "Role in Project",
+          "roledeliverables": "UI Architect / UX Consultant ",
+
+          "approchtitle": "Approach",
+          "approchdeliverables": "Stakeholders Interviews, Sitemap, Features Roadmap, Design patterns and UX process with detailed approach, Design interfaces, Front-end coding",
+
+          "technologytitle": "Tools and Technologies",
+          "technologydeliverables": "Android, PhoneGap, HTML, CSS, Bootstrap, Foundation, Java Script, dojo, Jquery Mobile, Jquery, Photoshop"
+        },
+        {
+          "ProductImage": "images/BoardPAC-Video-intro.jpg",
+          "websitetitle": "youtube",
+          "website": "https://www.youtube.com/watch?v=b5qIFgeZmrM",
+
+          "title": "BoardPAC Product Video",
+          "body": "BoardPAC product video is for marketing purpose of the product. This solution enables efficient secure access to the Company Corporate Board Papers. The platform has the collaboration enabled for quick decision making through a collaborative approach.",
+
+          "awardstitle": "Showcase Events",
+          "item": "CIMA Business Leaders Summit 2015, MAICSA Annual Conference 2015, LBR LBO CEO FORUM",
+
+          "roletitle": "Role in Project",
+          "roledeliverables": "Art Director / Visual effects creator ",
+
+          "approchtitle": "Approach",
+          "approchdeliverables": "Stakeholders Interviews, Sketches, Create visual assets",
+
+          "technologytitle": "Tools and Technologies",
+          "technologydeliverables": "Photoshop, After Effects"
+        },
+        {
+          "ProductImage": "images/Royal-College-Cricket.jpg",
+          "websitetitle": "Facebook",
+          "website": "https://www.facebook.com/Royal-College-Cricket-Carnival-Group-of-2001-170701536397898/?ref=ts&fref=ts",
+
+          "title": "Royal College Cricket Carnival",
+          "body": "Royal College Cricket Carnival since its inception in the year 2001 has been one of the main calendar events of old Royalists, both young and old. It has been an event which has been run to raise funds to support development activities of College as well as to provide yet another opportunity for Old Royalists and their families to get-together.",
+
+          "awardstitle": "Project Status",
+          "item": "RCU Approved Project",
+
+          "roletitle": "Role in Project",
+          "roledeliverables": "Media Director",
+
+          "approchtitle": "Approach",
+          "approchdeliverables": "Stakeholders Interviews, Sketches, Create visual assets, Facebook Marketing",
+
+          "technologytitle": "Tools and Technologies",
+          "technologydeliverables": "Photoshop, After Effects"
+        }
+ ]

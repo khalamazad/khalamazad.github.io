@@ -1,0 +1,127 @@
+
+<!--header-->
+<header>
+    <div class="jumbotron intro-header">
+        <div class="container NoPadding">
+            <div class=row">
+                <span class="col-lg-3 col-md-3 col-sm-2 col-xs-12 animated bounceInLeft NoPadding my-image">
+                    <img src="images/abul-azad2.png" class="my-image">
+                </span>
+                <script>utmx_section("I'm Unique Because")</script>
+                <div ng-repeat="info in uniquebecause" class="col-md-push-1 col-lg-7 col-md-7 col-sm-10 col-xs-12 text-center uniquebecause">
+
+                    <h1 class="animated flip blue">{{ info.header }}</h1>
+                    <p class="animated fadeInUp">{{ info.body }}</p>
+                    <h2 class="animated fadeInDown">
+                        Create
+                            <small>
+                                <span class="crimson">clean . exciting . cutting edge</span>
+                                solutions
+                            </small>
+                    </h2>
+                    <a href="" target="_blank" class="btn btn-crimson btn-lg">View Video!</a>
+                </div>
+                </noscript>
+
+            </div>
+        </div>
+    </div>
+    <div class="clearfix" />
+</header>
+<!--Video Section Ends Here-->
+
+<section class="section SIO">
+    <div class="jumbotron callout-dark-lot text-center offer">
+        <span class="fa fa-diamond fa-5x animated fadeInUp"></span>
+        <h2 class="animated fadeInDown bubble">Services I offer</h2>
+        <div class="row" ng-controller="ServicesIOffer">
+            <script>utmx_section("Services I Offer")</script>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-sm-12 text-left animated fadeInUp" ng-repeat="offers in offer">
+                <i class="fa {{offers.icon}} fa-3x"></i><h4>{{ offers.title }}</h4>
+                <p>
+                    {{ offers.deliverables }}
+                </p>
+            </div>
+            </noscript>
+        </div>
+    </div>
+    <div class="clearfix" />
+</section>
+
+<section class="section SL">
+    <div class="jumbotron callout-white text-center">
+        <div class="page">
+            <h1 class="animated fadeInDown  crimson">Skills level</h1>
+
+            <!-- default -->
+            <div class="clearfix col-md-10 col-md-pull-1 col-md-push-1" ng-controller="SkillsLevel">
+
+                    <script>utmx_section("Skills Level")</script>
+                    <div class="skill col-lg-6 col-md-6 col-sm-6 col-xs-12" ng-repeat="skills in skill | limitTo:4">
+                        <div class="c100 p{{skills.level}} {{skills.color}} animated flip small">
+                            <span>{{skills.level}}%</span>
+
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <strong class="animated fadeInDown gray"> <span class="fa {{skills.icon}} {{skills.skillcolor}}"></span> {{skills.skill}}</strong>
+                        <p> {{skills.skillsub}}</p>
+                    </div>
+                    </noscript>
+            </div>
+
+        </div>
+    </div>
+    <div class="clearfix" />
+</section>
+
+<section class="section provide">
+    <div class="jumbotron callout-white text-center">
+        <div class="row">
+            <div class="col-md-10 col-md-pull-1 col-md-push-1">
+                    <h3 class="animated fadeInDown  crimson">I provide solutions for</h3>
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-android fa-5x animated fadeInDown gray"></i>
+                        <p>Android Apps</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-mobile-phone fa-5x animated fadeInDown gray"></i>
+                        <p>Mobile Devices</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-apple fa-5x animated fadeInDown gray"></i>
+                        <p>iOS Apps</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-tablet fa-5x animated fadeInDown gray"></i>
+                        <p>Tablets</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-windows fa-5x animated fadeInDown gray"></i>
+                        <p>Applications</p>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 cl-xs-6">
+                        <i class="fa fa-desktop fa-5x animated fadeInDown gray"></i>
+                        <p>Desktop</p>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-md-pull-4 col-md-push-4 text-center">
+        <a class="btn btn-crimson btn-xlarge more" href="#about">More Skills</a>
+    </div>
+    <script>utmx_section("More Skills")</script>
+    <strong class="no-show">
+        Web Design / Graphic Design / Web Solutions /Provide Training / SharePoint Branding / SharePoint Administration /
+        Search Engine Optimisation / PHP Coding &amp; Web Developing / UI / UX developments / Website design &amp; Development /
+        Mobile UI/UX design / Business Process Management / Develop wireframes and prototypes / Quality Assruance of websites /
+        Innovation Mnagement
+    </strong>
+    </noscript>
+</section>
+

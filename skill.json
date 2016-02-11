@@ -1,0 +1,66 @@
+[
+  {
+    "skill": "HTML / CSS",
+    "skillsub": "Bootstrap / Foundation / HTML5 Boilerplate / Skeleton / Layers CSS",
+    "skillcolor": "orange",
+    "level": "95",
+    "icon":"fa-html5",
+    "color" : "green"
+  },
+  {
+    "skill": "JavaScript",
+    "skillsub": "AngularJS / Mobile Angular UI / Angular Firebase / jQuery / jQuery Mobile / AppML / Dojo",
+    "skillcolor": "lightblue",
+    "level": "90",
+    "icon":"fa-code",
+    "color" : "green"
+  },
+  {
+    "skill": "Microsoft",
+    "skillsub": "SharePoint Branding / SharePoint Administration / Visual Studio / Expression Blend / Expression Web",
+    "skillcolor": "blue",
+    "level": "80",
+    "icon":"fa-windows",
+    "color" : "green"
+  },
+  {
+    "skill": "Adobe",
+    "skillsub": "Photoshop / After Effects / Audition / Dreamweaver  / Flash Professional / Illustrator",
+    "skillcolor": "yellow",
+    "level": "85",
+    "icon":"fa-square",
+    "color" : "green"
+  },
+  {
+    "skill": "CMS",
+    "skillsub": "WordPress / Drupal / Joomla",
+    "skillcolor": "pink",
+    "level": "80",
+    "icon":"fa-pencil-square-o",
+    "color" : "green"
+  },
+  {
+    "skill": "Other IDEs",
+    "skillsub": "WebStorm / Xcode / NetBeans / Eclipse /Zend Studio",
+    "skillcolor": "lightblue",
+    "level": "65",
+    "icon":"fa-hashtag",
+    "color" : "orange"
+  },
+  {
+    "skill": "Coding",
+    "skillsub": "PHP / ASP.NET / C#.NET / Node.js ",
+    "skillcolor": "magenta",
+    "level": "55",
+    "icon":"fa-file-code-o",
+    "color" : "blue"
+  },
+  {
+    "skill": "Database",
+    "skillsub": "MySQL / MSSQL / JSON / XML / mongoDB",
+    "skillcolor": "bubble",
+    "level": "50",
+    "icon":"fa-database",
+    "color" : "blue"
+  }
+]
