@@ -537,7 +537,7 @@ figure:hover:before {
 }
 .poster{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 25%;
     right: 25%;
     opacity: 1;
@@ -625,11 +625,11 @@ figure:hover:before {
         right: auto;
     }
     .poster{
-        top: 10%;
+        top: 15%;
         left: 15%;
         right:15%;
     }
-    .poster h3{
+    .poster h1{
         display: none;
     }
     .poster h2{
