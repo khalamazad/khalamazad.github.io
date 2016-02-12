@@ -75,7 +75,38 @@ myApp.controller('ContactFeedController', function($scope) {
     };
 });
 
-scotchApp.controller('personCtrl', function($scope, $http) {
+scotchApp.controller("personCtrl", ['$scope', '$http', function($scope, $http) {
+        $scope.url = 'feedback.php';
+
+        $scope.submitForm = function (isValid) {
+
+
+            if (isValid) {
+
+
+                $http.post($scope.url, {
+                    "FirstName": $scope.newFeedBack.userName,
+                    "LastName": $scope.newFeedBack.lastName,
+                    "Email": $scope.newFeedBack.email,
+                    "PhoneNumber": $scope.newFeedBack.phoneNumber,
+
+                    "message": $scope.newFeedBack.message
+                }).
+                    success(function (data, status) {
+                        console.log(data);
+                        $scope.status = status;
+                        $scope.data = data;
+                        $scope.result = data;
+                    })
+            } else {
+
+                alert('Form is not valid');
+            }
+
+        }
+}]);
+
+/*scotchApp.controller('personCtrlold', function($scope, $http) {
     // creating a blank object to hold our form information.
     //$scope will allow this to pass between controller and view
     $scope.newFeedBack = {};
@@ -96,7 +127,7 @@ scotchApp.controller('personCtrl', function($scope, $http) {
         //return $scope.newFeedBack.userFirstName + " " + $scope.newFeedBack.lastName;
        $http({
             method: 'POST',
-            url: 'http://atrad.lk//sitemaster/htmlsite/feedback.php',
+            url: 'feedback.php',
             data: param($scope.newFeedBack), // pass in data as strings
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
         })
@@ -115,7 +146,7 @@ scotchApp.controller('personCtrl', function($scope, $http) {
 
 
     };
-});
+});*/
 
 
 
