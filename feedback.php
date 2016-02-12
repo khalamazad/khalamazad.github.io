@@ -1,4 +1,5 @@
 <?php 
+ header('Access-Control-Allow-Origin: *');  
  $to = "khalamazad@gmail.com"; 
  $subject = "From khalamAzad Website Contact Form";
  $name = $_REQUEST['FirstName']; 

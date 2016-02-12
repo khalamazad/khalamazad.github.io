@@ -83,15 +83,19 @@ scotchApp.controller("personCtrl", ['$scope', '$http', function($scope, $http) {
 
             if (isValid) {
 
-
-                $http.post($scope.url, {
-                    "FirstName": $scope.newFeedBack.userName,
-                    "LastName": $scope.newFeedBack.lastName,
-                    "Email": $scope.newFeedBack.email,
-                    "PhoneNumber": $scope.newFeedBack.phoneNumber,
-                    "message": $scope.newFeedBack.message
-                }).
-                    success(function (data, status) {
+                $http({
+                    method: 'POST',
+                    url: $scope.url,
+                    data :{
+                        "FirstName": $scope.newFeedBack.userName,
+                        "LastName": $scope.newFeedBack.lastName,
+                        "Email": $scope.newFeedBack.email,
+                        "PhoneNumber": $scope.newFeedBack.phoneNumber,
+                        "message": $scope.newFeedBack.message
+                    },
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
+                })
+                    .success(function (data, status) {
                         console.log(data);
                         $scope.status = status;
                         $scope.data = data;
