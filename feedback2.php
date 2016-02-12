@@ -30,9 +30,7 @@
    $email_message .= "Email: ".$email_from."n";
    $email_message .= "Message: ".$message."n";
 
-   $headers = 'From: '.$email_from."rn".
-   'Reply-To: '.$email_from."rn" .
-   'X-Mailer: PHP/' . phpversion();
+   $headers = 'From: '.$email_from."rn";
 
    @mail($email_to, $email_subject, $email_message, $headers);
  }

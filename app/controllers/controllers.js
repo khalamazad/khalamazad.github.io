@@ -76,7 +76,7 @@ myApp.controller('ContactFeedController', function($scope) {
 });
 
 scotchApp.controller("personCtrl", ['$scope', '$http', function($scope, $http) {
-        $scope.url = 'feedback.php';
+        $scope.url = 'http://atrad.lk/sitemaster/htmlsite/feedback.php';
 
         $scope.submitForm = function (isValid) {
 
@@ -89,7 +89,6 @@ scotchApp.controller("personCtrl", ['$scope', '$http', function($scope, $http) {
                     "LastName": $scope.newFeedBack.lastName,
                     "Email": $scope.newFeedBack.email,
                     "PhoneNumber": $scope.newFeedBack.phoneNumber,
-
                     "message": $scope.newFeedBack.message
                 }).
                     success(function (data, status) {
