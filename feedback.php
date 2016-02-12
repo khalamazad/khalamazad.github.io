@@ -11,16 +11,14 @@
  @$email = $request->Email;
  @$phone = $request->PhoneNumber;
  @$messagetext = $request->message;
-
- $messagetext = $_POST['message'];
  
 	$message = "First Name: ". @$FirstName ."\r\n"; 
 	$message .= "Last Name: ". @$LastName ."\r\n";
 	$message .= "Email: ". @$email ."\r\n"; 
 	$message .= "Phone: ". @$phone ."\r\n"; 
-	$message .= "Requirement: ". @$messagetext ."\r\n";
+	$message .= "Message: ". @$messagetext ."\r\n";
+	$message .= "..................................";
  
- $headers = "From:$email"; 
  $sent = mail($to, $subject, $message, $headers, $message); 
  if($sent) 
  {
