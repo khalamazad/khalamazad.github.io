@@ -81,7 +81,7 @@ scotchApp.controller('personCtrl', function($scope, $http) {
         //return $scope.newFeedBack.userFirstName + " " + $scope.newFeedBack.lastName;
        $http({
             method: 'POST',
-            url: 'feedback.php',
+            url: 'http://atrad.lk//sitemaster/htmlsite/feedback.php',
             data: $scope.newFeedBack,  // pass in data as strings
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
         })
