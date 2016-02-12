@@ -79,10 +79,10 @@ scotchApp.controller('personCtrl', function($scope, $http) {
     $scope.newFeedBack = {};
     $scope.submitForm = function() {
         //return $scope.newFeedBack.userFirstName + " " + $scope.newFeedBack.lastName;
-        $http({
+       $http({
             method: 'POST',
             url: 'feedback.php',
-            data: $.param($scope.newFeedBack),  // pass in data as strings
+            data: $scope.newFeedBack,  // pass in data as strings
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' }  // set the headers so angular passing info as form data (not request payload)
         })
             .success(function (data) {
@@ -90,15 +90,16 @@ scotchApp.controller('personCtrl', function($scope, $http) {
 
                 if (!data.success) {
                     // if not successful, bind errors to error variables
-                    $scope.errorName = data.errors.name;
-                    $scope.errorSuperhero = data.errors.superheroAlias;
+                    //$scope.errorName = data.errors.name;
+                    //$scope.errorSuperhero = data.errors.superheroAlias;
                 }
                 else {
                     // if successful, bind success message to message
-                    $scope.message = data.message;
+                    //$scope.message = data.message;
 
                 }
             });
+
 
     };
 });

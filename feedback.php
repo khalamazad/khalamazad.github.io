@@ -1,11 +1,11 @@
 <?php
  $to = "khalamazad@gmail.com";
  $subject = "From KhalamAzad Website Contact Form";
- $name = $_POST['newFeedBack.userName'];
- $lname = $_POST['newFeedBack.lastName'];
- $email = $_POST['newFeedBack.email'];
- $phone = $_POST['newFeedBack.phoneNumber'];
- $messagetext = $_POST['newFeedBack.message'];
+ $name = $_POST['userName'];
+ $lname = $_POST['lastName'];
+ $email = $_POST['email'];
+ $phone = $_POST['phoneNumber'];
+ $messagetext = $_POST['message'];
 
 	$message = "Name: ". $name ."\r\n";
 	$message .= "Last Name: ". $lname ."\r\n";
