@@ -75,6 +75,7 @@
 <body>
 <!-- BEGIN: Pre-Bootstrap Loading Screen. -->
 <div ng-if="false" ng-class="animation">
+    <script> window.prerenderReady = false; </script>
     <style>
      .loading {
         display: inline-block;
@@ -109,7 +110,7 @@
 
 </div>
 <!-- END: Pre-Bootstrap Loading Screen. -->
-
+<script> window.prerenderReady = true; </script>
     <nav class="navbar navbar-default">
         <div class="container">
             <script>utmx_section("Title")</script>
