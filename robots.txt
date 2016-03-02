@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /node_modules
+Disallow: /images
+Allow: /views
+Allow: /app
+Disallow: /css
